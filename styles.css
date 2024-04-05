@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgb(64, 255, 0)
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="number"], input[type="checkbox"] {
+  margin-left: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ffa109;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #090cf0;
+}
+
+#password {
+  margin-top: 20px;
+  font-size: 20px;
+}
